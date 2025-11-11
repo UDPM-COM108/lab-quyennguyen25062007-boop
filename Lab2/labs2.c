@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>   // cần thêm để dùng hàm sqrt()
+#include <math.h>   
 #define PI 3.14
 
 int main() {
@@ -49,7 +49,7 @@ int main() {
     printf("\nNhap vao do dai 2 canh ke tam giac vuong: ");
     scanf("%f %f", &canhA, &canhB);
 
-    canhC = sqrt(canhA * canhA + canhB * canhB);  // tính cạnh huyền
+    canhC = sqrt(canhA * canhA + canhB * canhB);  // canh huyen
 
     chuviTG = canhA + canhB + canhC;
     dientichTG = (canhA * canhB) / 2;
